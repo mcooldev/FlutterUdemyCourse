@@ -1,6 +1,7 @@
 import 'dart:convert' as convert;
 import 'dart:developer';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:udemy_course/models/shopping.dart';
 import 'package:http/http.dart' as http;
 
@@ -11,7 +12,7 @@ class Database {
   static final Database instance = Database._();
 
   // Post data in database
-  final String url = "mcool-ecommerce-default-rtdb.firebaseio.com";
+  final String url = "${dotenv.env["rtdbUrl"]}";
 
   Future<void> addData(Shopping shoppingItem) async {
     try {
@@ -29,7 +30,7 @@ class Database {
     }
   }
 
-  // Get data from database
+  // Get data from database (Real time database)
   Future<List<Shopping>> getData() async {
     List<Shopping> shoppingItems = [];
     try {

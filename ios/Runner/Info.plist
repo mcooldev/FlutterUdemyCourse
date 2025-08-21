@@ -2,6 +2,9 @@
     "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
+        <!--Google apiKey-->
+        <key>GoogleMapsAPIKey</key>
+        <string>$(API_KEY)</string>
         <!-- Permissions de localisation -->
         <key>NSLocationWhenInUseUsageDescription</key>
         <string>This app uses your location to help you find nearby places and tag your photos with location information</string>
