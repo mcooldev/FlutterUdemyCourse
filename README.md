@@ -48,4 +48,4 @@ Firebase
 ## ⚙️ Installation
 Cloner le dépôt :
 ```bash
-
+https://github.com/mcooldev/FlutterUdemyCourse.git
