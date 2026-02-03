@@ -1,16 +1,51 @@
-# udemy_course
+# 📘 Flutter & Dart – Cours Udemy (Maximilian Schwarzmüller)
+Ce dépôt regroupe tous les projets, exercices et fonctionnalités que j’ai réalisés durant le cours “Flutter & Dart – The Complete Guide” dispensé sur Udemy par Maximilian Schwarzmüller.
+### 🧠 L’objectif est de mettre en pratique chaque chapitre du cours, avec une page d’accueil qui sert de menu navigable vers les fonctionnalités de chaque thème abordé.
 
-Flutter Udemy Course.
+## 🏁 Aperçu du cours
+Le cours couvre Flutter et Dart depuis les bases jusqu’à des concepts avancés :
+Widgets Flutter, layout, UI
+Navigation et routing
+Gestion d’état (state management)
+Connexions API
+Authentification et fonctionnalités avancées
+Accès aux fonctionnalités natives (caméra, notifications…)
+Projets réels pour apprendre en construisant
 
-## Getting Started
+## 📱 Aperçu de l’application
+Sur l’écran Accueil, se trouve des boutons représentant chaque chapitre ou fonctionnalité à travers des projets :
+📦 Chapitre 1 – Flutter de base
+🧭 Navigation & Routes
+🎛️ State Management avec Provider
+🗂️ HTTP & API
+🔑 Firebase / Authentification
+📷 Fonctions appareils (IP, caméra…)
+…etc
+Clique sur chaque bouton pour accéder à l’exemple de code correspondant.
 
-This project is a starting point for a Flutter application.
+<img width="1080" height="2400" alt="Screenshot_20260203_151928" src="https://github.com/user-attachments/assets/10d17e33-d4f3-4381-9c23-59826e0a701a" />
 
-A few resources to get you started if this is your first Flutter project:
+## 📚 Concepts et Modules
+Ici les principaux types de modules mis en place via les projets affichés sur la page home (Voir image ci-dessus):
+🔹 Chapitre – Flutter de base
+Widgets de base (Text, Column, Row, Stack, list view ...)
+Gestion de layout
+Thèmes, styles
+🔹 Navigation & Routes
+Navigation entre écrans
+Routes nommées
+Passage d’arguments
+🔹 State Management (Provider)
+Mise en place du Provider
+ChangeNotifier pour le state global
+Exemple de liste & interactions utilisateur
+🔹 Interaction avec API/Backend
+Requêtes HTTP
+Parsing JSON
+Google maps
+Firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ⚙️ Installation
+Cloner le dépôt :
+```bash
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
