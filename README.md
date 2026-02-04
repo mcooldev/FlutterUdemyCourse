@@ -23,8 +23,6 @@ Sur l’écran Accueil, se trouve des boutons représentant chaque chapitre ou f
 …etc
 Clique sur chaque bouton pour accéder à l’exemple de code correspondant.
 
-<img width="1080" height="2400" alt="Screenshot_20260203_151928" src="https://github.com/user-attachments/assets/10d17e33-d4f3-4381-9c23-59826e0a701a" />
-
 ## 📚 Concepts et Modules
 Ici les principaux types de modules mis en place via les projets affichés sur la page home (Voir image ci-dessus):
 🔹 Chapitre – Flutter de base
